@@ -115,6 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="ColorCircle.cpp" />
+    <ClCompile Include="ColorFilledCircle.cpp" />
+    <ClCompile Include="main_circle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="graphLib2017.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="ColorCircle.h" />
+    <ClInclude Include="ColorFilledCircle.h" />
+    <ClInclude Include="graph1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
